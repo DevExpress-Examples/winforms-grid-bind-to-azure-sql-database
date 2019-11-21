@@ -7,11 +7,11 @@ Note that in order to bind any data set to a data-aware control, this data set m
 
 This example contains the sample **AdventureWorksLT** data. To generate a sample database identical to the one used in this example, follow the [Quickstart: Create a single database in Azure SQL Database using the Azure portal, PowerShell, and Azure CLI](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-single-database-get-started?tabs=azure-portal) Microsoft article.
 
-Three Ribbon buttons allow you to choose between the following data binding modes:
+Three Ribbon buttons allow you to bind to a sample Azure database using one of the following methods:
 
-* standard **SqlDataAdapter** component;
-* DevExpress [SqlDataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Sql.SqlDataSource) component;
-* **Entity Framework** model;
+* direct binding to a standard **DataTable** object;
+* binding with a DevExpress [SqlDataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Sql.SqlDataSource) component;
+* binding with an **Entity Framework** model.
 
 ![alt text](grid.png)
 
