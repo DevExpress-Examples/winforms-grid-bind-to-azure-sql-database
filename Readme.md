@@ -5,26 +5,26 @@
 <!-- default badges end -->
 # WinForms Data Grid - Bind to Azure SQL data
 
-This example fetches data from the [Azure SQL data base](https://azure.microsoft.com/en-us/services/sql-database/) and displays it in the [GridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl).
+This example fetches data from the [Azure SQL Database](https://azure.microsoft.com/en-us/services/sql-database/) and displays it in the [GridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl).
 
 > **Note**
 >
-> To bind any data set to a data-aware control, the data set must implement the `IList` or `IListSource` interface. Read the following help topic for additional information: [Data Binding](https://docs.devexpress.com/WindowsForms/634/controls-and-libraries/data-grid/data-binding).
+> To bind any dataset to a data-aware control, the dataset must implement the `IList` or `IListSource` interface. Read the following help topic for additional information: [Data Binding](https://docs.devexpress.com/WindowsForms/634/controls-and-libraries/data-grid/data-binding).
 
 This example contains sample **AdventureWorksLT** data. To generate a sample database identical to the one used in this example, follow the [Quickstart: Create a single database in Azure SQL Database using the Azure portal, PowerShell, and Azure CLI](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-single-database-get-started?tabs=azure-portal) Microsoft article.
 
 Ribbon UI commands allow you to bind to a sample Azure database using one of the following methods:
 
-* direct binding to a standard **DataTable** object;
-* binding with a DevExpress [SqlDataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Sql.SqlDataSource) component;
-* binding with an **Entity Framework** model.
+* Direct binding to a standard **DataTable** object
+* Binding with a DevExpress [SqlDataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Sql.SqlDataSource) component
+* Binding with an **Entity Framework** model
 
 ![WinForms Application](grid.png)
 
 Do the following to run this example:
 
-* [create a server-level firewall rule for your database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-server-level-firewall-rule);
-* specify connection settings in the `Main` method:
+* [Create a server-level firewall rule for your database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-server-level-firewall-rule)
+* Specify connection settings in the `Main` method:
 
   ```csharp
   static class Program {
