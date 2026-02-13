@@ -50,7 +50,7 @@ Do the following to run this example:
 
 * [Bind to Azure SQL Database](https://docs.devexpress.com/WindowsForms/401443/common-features/data-binding/bind-to-azure-data)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-bind-to-azure-sql-database&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-bind-to-azure-sql-database&~~~was_helpful=no)
 
